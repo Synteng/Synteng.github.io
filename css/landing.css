@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@keyframes typing {
+	from{width: 0%}
+	to {width:600px}
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+body {
+	background-color: #1b1b1b;
+	font-family: Fira Code, monospace;
+	color: white;
+}
+
+.title {
+	font-size: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.title h1 {
+	border-right: .1em solid white;
+	overflow: hidden;
+	animation: typing 1s steps(7, end),
+	           blink  1s step-end infinite;
+}
+
+.redirect {
+	text-align: center;
+}
+
+a.button{
+	font-size: 30px;
+	padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    background: #2c2c31;
+	color: white;
+	border-radius: 5px;
+}
