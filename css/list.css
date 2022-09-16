@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+	background-color: #1b1b1b;
+	font-family: Fira Code, monospace;
+	color: white;
+}
+
+.item{
+    background: #2c2c31;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
